@@ -1,0 +1,13 @@
+# Python bytecode and caches
+__pycache__/
+pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+
+# IDE and editor files
+.vscode/
+
+# Operating system files
+.DS_Store
