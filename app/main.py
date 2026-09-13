@@ -111,6 +111,7 @@ async def websocket_endpoint(websocket: WebSocket, room_id: str):
                         ),
                         websocket,
                     )
+                    continue
 
                 try:
                     extracted_data = (
